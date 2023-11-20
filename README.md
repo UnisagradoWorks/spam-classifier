@@ -1,5 +1,5 @@
 
-# 💻 Classificador de Spam usando Árvore de Decisão
+# 💻 Classificador de Spam usando naive-Bayes
 - Este é um projeto simples de classificação de mensagens em spam ou não spam utilizando a biblioteca scikit-learn em Python. O classificador é baseado em Naive-Bayes.
 
 # 🧩 Configuração do Ambiente
