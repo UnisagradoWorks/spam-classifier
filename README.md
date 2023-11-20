@@ -16,6 +16,7 @@ git clone https://github.com/UnisagradoWorks/spam-classifier
 2. Dados de exemplo:
 ```bash
 nova_mensagem = [
+    ("Você recebeu um prêmio incrível! Clique aqui para reivindicar agora!", 1), # 1 para spam
     ("Oferta especial! Ganhe 50% de desconto hoje!", 1),  # 1 para spam
     ("Reunião marcada para amanhã às 10h", 0),  # 0 para não spam
     ("Ganhou um prêmio de loteria. Responda para reivindicar.", 1),
