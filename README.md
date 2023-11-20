@@ -14,8 +14,8 @@ pip install scikit-learn
 git clone https://github.com/UnisagradoWorks/spam-classifier
 ```  
 2. Dados de exemplo:
-```python
-mensagens = [
+```bash
+nova_mensagem = [
     ("Oferta especial! Ganhe 50% de desconto hoje!", 1),  # 1 para spam
     ("Reunião marcada para amanhã às 10h", 0),  # 0 para não spam
     ("Ganhou um prêmio de loteria. Responda para reivindicar.", 1),
@@ -24,8 +24,8 @@ mensagens = [
 ]
 ```
 3. Execute o código:
-```python
-SpamClassifier.py
+```bash
+spam_classifier.py
 ```
 # 📊 Resultados
 Após a execução do código, os resultados, incluindo a acurácia e o relatório de classificação, serão exibidos no console.
