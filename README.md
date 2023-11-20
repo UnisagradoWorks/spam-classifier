@@ -1,6 +1,6 @@
 
 # 💻 Classificador de Spam usando Árvore de Decisão
-- Este é um projeto simples de classificação de mensagens em spam ou não spam utilizando a biblioteca scikit-learn em Python. O classificador é baseado em Árvore de Decisão e utiliza a representação de texto em vetores com o CountVectorizer.
+- Este é um projeto simples de classificação de mensagens em spam ou não spam utilizando a biblioteca scikit-learn em Python. O classificador é baseado em Naive-Bayes.
 
 # 🧩 Configuração do Ambiente
 Certifique-se de ter o Python instalado em sua máquina. Você pode instalar as bibliotecas necessárias usando o seguinte comando:
@@ -29,4 +29,4 @@ nova_mensagem = [
 spam_classifier.py
 ```
 # 📊 Resultados
-Após a execução do código, os resultados, incluindo a acurácia e o relatório de classificação, serão exibidos no console.
+Após a execução do código, os resultados, incluindo a acurácia e o relatório de classificação, serão exibidos no console. Este é um exemplo simples. Na prática, você pode querer utilizar um conjunto de dados mais extenso e realizar um pré-processamento mais avançado, como a remoção de stop words e o uso de técnicas de processamento de linguagem natural mais sofisticadas. Além disso, você pode experimentar outros modelos de classificação, como Support Vector Machines (SVM) ou redes neurais. 
